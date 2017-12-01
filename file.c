@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 	long size;
 	fseek(data, 0L, SEEK_END);
 	size = ftell(data);
-	printf("The file size is %d bytes!", size);
+	printf("The file size is %d bytes!\n", size);
 	fclose(data);
 
 	return 0;
